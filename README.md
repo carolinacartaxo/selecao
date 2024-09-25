@@ -1,6 +1,6 @@
 # selecao
 Respostas das perguntas feitas na seleção.
-As questões 1 à 3 estão como código e a 4 e 5 são:
+As questões 1 a 3 estão como código e a 4 e 5 são:
 
 4. 
 a) 1, 3, 5, 7, 9.   -> números ímpares
