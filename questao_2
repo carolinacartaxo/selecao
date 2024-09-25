@@ -1,0 +1,9 @@
+def contar_letras_a(texto):
+    # Vai contar quantas vezes aparece 'a' e 'A' na string
+    count = texto.lower().count('a')
+    return f"A letra 'a' aparece {count} vezes na string"
+
+# Defina a string a ser verificada
+texto = "Ana adora python"
+print(contar_letras_a(texto))
+# A letra 'a' aparece 4 vezes na string

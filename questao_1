@@ -1,0 +1,16 @@
+def pertence_fibonacci(n):
+    # Primeiros números da sequência de Fibonacci
+    a, b = 0, 1
+    
+    # Verifica se o número que foi dado pertence à sequência
+    while a <= n:
+        if a == n:
+            return f"O número {n} pertence à sequência de Fibonacci."
+        a, b = b, a + b
+    
+    return f"O número {n} NÃO pertence à sequência de Fibonacci."
+
+# Define o número a ser verificado
+numero = 21
+print(pertence_fibonacci(numero))
+# O número 21 pertence à sequência de Fibonacci.
